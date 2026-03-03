@@ -9,7 +9,7 @@ export const experience: ExperienceItem[] = [
     endDate: "Present",
     location: "Seattle, Washington",
     description: [],
-    logoUrl: "https://logo.clearbit.com/amazon.com",
+    logoUrl: "https://logo.clearbit.com/amazon.com?size=128",
   },
   {
     id: "goldman-sachs",
@@ -21,7 +21,7 @@ export const experience: ExperienceItem[] = [
     description: [
       "Currently working on a technical project with a mentor from the Goldman Sachs engineering division. Presenting in April 2026.",
     ],
-    logoUrl: "https://logo.clearbit.com/goldmansachs.com",
+    logoUrl: "https://logo.clearbit.com/goldmansachs.com?size=128",
   },
   {
     id: "longhorn-racing",
@@ -49,7 +49,7 @@ export const experience: ExperienceItem[] = [
       "Placed 1st in the TP Trading competition and highest scoring team at NYC Estimathon.",
     ],
     techStack: ["Python", "Number Theory"],
-    logoUrl: "https://logo.clearbit.com/janestreet.com",
+    logoUrl: "https://logo.clearbit.com/janestreet.com?size=128",
   },
   {
     id: "texas-house",
