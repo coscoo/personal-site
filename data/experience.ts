@@ -35,7 +35,7 @@ export const experience: ExperienceItem[] = [
       "Working on a server implementing UDP & TCP.",
     ],
     techStack: ["C++", "C"],
-    logoUrl: "https://logo.clearbit.com/longhornracing.org",
+    logoUrl: "https://www.google.com/s2/favicons?domain=longhornracing.org&sz=64",
   },
   {
     id: "jane-street",
@@ -61,7 +61,7 @@ export const experience: ExperienceItem[] = [
     description: [
       "Authored an original bill on machine learning.",
     ],
-    logoUrl: "https://logo.clearbit.com/house.texas.gov",
+    logoUrl: "https://www.google.com/s2/favicons?domain=house.texas.gov&sz=64",
   },
   {
     id: "sugar-land",
@@ -73,7 +73,7 @@ export const experience: ExperienceItem[] = [
     description: [
       "Led a team of 20 interns in developing a comprehensive proposal for a juvenile incarceration system focused on reducing recidivism among minor citizens, impacting approximately 15,000 individuals.",
     ],
-    logoUrl: "https://logo.clearbit.com/sugarlandtx.gov",
+    logoUrl: "https://www.google.com/s2/favicons?domain=sugarlandtx.gov&sz=64",
   },
   {
     id: "fort-bend",
@@ -85,6 +85,6 @@ export const experience: ExperienceItem[] = [
     description: [
       "Conducted comprehensive legal research by reviewing over 50 criminal law cases, enhancing the district attorney's records.",
     ],
-    logoUrl: "https://logo.clearbit.com/fortbendcountytx.gov",
+    logoUrl: "https://www.google.com/s2/favicons?domain=fortbendcountytx.gov&sz=64",
   },
 ];
