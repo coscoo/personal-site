@@ -9,7 +9,7 @@ export const experience: ExperienceItem[] = [
     endDate: "Present",
     location: "Seattle, Washington",
     description: [],
-    logoUrl: "https://logo.clearbit.com/amazon.com?size=128",
+    logoUrl: "https://download.logo.wine/logo/Amazon_(company)/Amazon_(company)-Logo.wine.png",
   },
   {
     id: "goldman-sachs",
@@ -21,7 +21,7 @@ export const experience: ExperienceItem[] = [
     description: [
       "Currently working on a technical project with a mentor from the Goldman Sachs engineering division. Presenting in April 2026.",
     ],
-    logoUrl: "https://logo.clearbit.com/goldmansachs.com?size=128",
+    logoUrl: "https://www.goldmansachs.com/a/pgs/navigation/assets/images/gs-logo.svg",
   },
   {
     id: "longhorn-racing",
@@ -35,7 +35,7 @@ export const experience: ExperienceItem[] = [
       "Working on a server implementing UDP & TCP.",
     ],
     techStack: ["C++", "C"],
-    logoUrl: "https://www.google.com/s2/favicons?domain=longhornracing.org&sz=64",
+    logoUrl: "https://www.google.com/s2/favicons?domain=longhornracing.org&sz=128",
   },
   {
     id: "jane-street",
@@ -49,7 +49,7 @@ export const experience: ExperienceItem[] = [
       "Placed 1st in the TP Trading competition and highest scoring team at NYC Estimathon.",
     ],
     techStack: ["Python", "Number Theory"],
-    logoUrl: "https://logo.clearbit.com/janestreet.com?size=128",
+    logoUrl: "https://www.janestreet.com/assets/logo_horizontal-16929188a56384c8e77bea91967c4553146ed7293f60a8f4f2ab6a06187881ce.svg",
   },
   {
     id: "texas-house",
@@ -61,7 +61,7 @@ export const experience: ExperienceItem[] = [
     description: [
       "Authored an original bill on machine learning.",
     ],
-    logoUrl: "https://www.google.com/s2/favicons?domain=house.texas.gov&sz=64",
+    logoUrl: "https://www.google.com/s2/favicons?domain=house.texas.gov&sz=128",
   },
   {
     id: "sugar-land",
@@ -73,7 +73,7 @@ export const experience: ExperienceItem[] = [
     description: [
       "Led a team of 20 interns in developing a comprehensive proposal for a juvenile incarceration system focused on reducing recidivism among minor citizens, impacting approximately 15,000 individuals.",
     ],
-    logoUrl: "https://www.google.com/s2/favicons?domain=sugarlandtx.gov&sz=64",
+    logoUrl: "https://www.google.com/s2/favicons?domain=sugarlandtx.gov&sz=128",
   },
   {
     id: "fort-bend",
@@ -85,6 +85,6 @@ export const experience: ExperienceItem[] = [
     description: [
       "Conducted comprehensive legal research by reviewing over 50 criminal law cases, enhancing the district attorney's records.",
     ],
-    logoUrl: "https://www.google.com/s2/favicons?domain=fortbendcountytx.gov&sz=64",
+    logoUrl: "https://www.google.com/s2/favicons?domain=fortbendcountytx.gov&sz=128",
   },
 ];

@@ -17,8 +17,8 @@ function CompanyLogo({
 
   if (!logoUrl || error) {
     return (
-      <div className="w-10 h-10 rounded-lg bg-[var(--surface)] border border-[var(--border)] flex items-center justify-center shrink-0">
-        <span className="text-xs font-semibold text-[var(--muted)]">
+      <div className="w-12 h-12 rounded-xl bg-[var(--surface)] border border-[var(--border)] flex items-center justify-center shrink-0">
+        <span className="text-sm font-semibold text-[var(--muted)]">
           {initial}
         </span>
       </div>
@@ -26,12 +26,12 @@ function CompanyLogo({
   }
 
   return (
-    <div className="w-10 h-10 rounded-lg bg-white border border-[var(--border)] overflow-hidden shrink-0 flex items-center justify-center p-1.5">
+    <div className="w-12 h-12 rounded-xl bg-white border border-[var(--border)] overflow-hidden shrink-0 flex items-center justify-center p-2">
       <Image
         src={logoUrl}
         alt={`${company} logo`}
-        width={64}
-        height={64}
+        width={128}
+        height={128}
         className="object-contain w-full h-full"
         onError={() => setError(true)}
         unoptimized

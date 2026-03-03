@@ -9,12 +9,20 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "logo.clearbit.com",
+        hostname: "www.google.com",
+        pathname: "/s2/favicons/**",
       },
       {
         protocol: "https",
-        hostname: "www.google.com",
-        pathname: "/s2/favicons/**",
+        hostname: "download.logo.wine",
+      },
+      {
+        protocol: "https",
+        hostname: "www.goldmansachs.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.janestreet.com",
       },
     ],
   },
