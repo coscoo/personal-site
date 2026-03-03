@@ -1,0 +1,90 @@
+import { ExperienceItem } from "@/types";
+
+export const experience: ExperienceItem[] = [
+  {
+    id: "amazon",
+    company: "Amazon",
+    role: "Incoming Software Development Engineer Intern",
+    startDate: "Incoming",
+    endDate: "Present",
+    location: "Seattle, Washington",
+    description: [],
+    logoUrl: "https://logo.clearbit.com/amazon.com",
+  },
+  {
+    id: "goldman-sachs",
+    company: "Goldman Sachs",
+    role: "Emerging Leaders Series Program - Engineering Track",
+    startDate: "Dec 2025",
+    endDate: "Present",
+    location: "Dallas, Texas · Hybrid",
+    description: [
+      "Currently working on a technical project with a mentor from the Goldman Sachs engineering division. Presenting in April 2026.",
+    ],
+    logoUrl: "https://logo.clearbit.com/goldmansachs.com",
+  },
+  {
+    id: "longhorn-racing",
+    company: "Longhorn Racing",
+    role: "Vehicle Controls & Telemetry Team Member",
+    startDate: "Sep 2025",
+    endDate: "Present",
+    location: "Austin, Texas",
+    description: [
+      "Created a data pipeline to translate SLCAN packets into user-friendly data.",
+      "Working on a server implementing UDP & TCP.",
+    ],
+    techStack: ["C++", "C"],
+    logoUrl: "https://logo.clearbit.com/longhornracing.org",
+  },
+  {
+    id: "jane-street",
+    company: "Jane Street",
+    role: "Math and Programming Scholar",
+    startDate: "May 2025",
+    endDate: "Aug 2025",
+    location: "Manhattan, New York",
+    description: [
+      "Studied number theory, combinatorics, and computer science under the mentorship of former IMO coaches and quant traders.",
+      "Placed 1st in the TP Trading competition and highest scoring team at NYC Estimathon.",
+    ],
+    techStack: ["Python", "Number Theory"],
+    logoUrl: "https://logo.clearbit.com/janestreet.com",
+  },
+  {
+    id: "texas-house",
+    company: "Texas House of Representatives",
+    role: "Machine Learning Research Intern",
+    startDate: "May 2024",
+    endDate: "Aug 2024",
+    location: "Texas",
+    description: [
+      "Authored an original bill on machine learning.",
+    ],
+    logoUrl: "https://logo.clearbit.com/house.texas.gov",
+  },
+  {
+    id: "sugar-land",
+    company: "City of Sugar Land, TX",
+    role: "Project Leader – Mayor's Youth Advisory Council",
+    startDate: "Nov 2023",
+    endDate: "May 2024",
+    location: "Sugar Land, Texas",
+    description: [
+      "Led a team of 20 interns in developing a comprehensive proposal for a juvenile incarceration system focused on reducing recidivism among minor citizens, impacting approximately 15,000 individuals.",
+    ],
+    logoUrl: "https://logo.clearbit.com/sugarlandtx.gov",
+  },
+  {
+    id: "fort-bend",
+    company: "Fort Bend County",
+    role: "Evidence Analysis Intern – District Attorney's Office",
+    startDate: "May 2022",
+    endDate: "Aug 2022",
+    location: "Fort Bend County, Texas",
+    description: [
+      "Conducted comprehensive legal research by reviewing over 50 criminal law cases, enhancing the district attorney's records.",
+    ],
+    logoUrl: "https://logo.clearbit.com/fortbendcountytx.gov",
+  },
+];
